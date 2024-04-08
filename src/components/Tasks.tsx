@@ -1,12 +1,16 @@
-import React from 'react';
-import OngoingService from './OngoingService';
+import React from "react";
+import OngoingServices from "./OngoingServices";
+import TaskHistory from "./TaskHistory";
+import Scheduled from "./Scheduled";
 
 const Tasks = () => {
   return (
-    <div className='grid grid-cols-3 gap-4'>
-      {[1, 2, 2, 3, 3, 3, 33, 3, 33, 3, 3, 3, 3, 3, 33, 3, 3, 33, 33, 3, 3, 3, 3].map((t, i) => (
-        <OngoingService key={i} />
-      ))}
+    <div className="flex items-center justify-center md:justify-between">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <OngoingServices />
+        <TaskHistory />
+        <Scheduled />
+      </div>
     </div>
   );
 };

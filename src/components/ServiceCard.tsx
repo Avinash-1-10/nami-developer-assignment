@@ -6,7 +6,7 @@ import { IoTimeOutline } from "react-icons/io5";
 import { CiCalendar } from "react-icons/ci";
 import { FaRegCircleCheck } from "react-icons/fa6";
 
-const OngoingService = () => {
+const ServiceCard = () => {
   return (
     <div className="w-[335px] md:w-[360px] border rounded-lg p-2 flex flex-col gap-3">
       {/* first row */}
@@ -58,4 +58,4 @@ const OngoingService = () => {
   );
 };
 
-export default OngoingService;
+export default ServiceCard;
