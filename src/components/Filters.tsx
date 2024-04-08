@@ -1,5 +1,3 @@
-import React from "react";
-
 const Filters = () => {
   return (
     <div className="flex gap-2 py-3 my-2 text-xs md:text-base overflow-y-auto mx-2">

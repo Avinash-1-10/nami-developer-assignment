@@ -1,4 +1,3 @@
-import React from "react";
 import OngoingServices from "./OngoingServices";
 import TaskHistory from "./TaskHistory";
 import Scheduled from "./Scheduled";

@@ -2,7 +2,6 @@ import "./App.css";
 import Filters from "./components/Filters";
 import MobileFooter from "./components/MobileFooter";
 import MobileHeader from "./components/MobileHeader";
-import OngoingService from "./components/ServiceCard";
 import SideNav from "./components/SideNav";
 import Tasks from "./components/Tasks";
 import TopNav from "./components/TopNav";
@@ -11,7 +10,7 @@ function App() {
   return (
     <>
       <div className="hidden md:block">
-      <TopNav />
+        <TopNav />
       </div>
       <div className="flex gap-10">
         <div className="w-[224px] mt-2 hidden md:block">

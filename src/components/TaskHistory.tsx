@@ -1,4 +1,3 @@
-import React from 'react'
 import TaskHistoryCard from './TaskHistoryCard'
 
 const TaskHistory = () => {

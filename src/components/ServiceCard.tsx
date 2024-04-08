@@ -1,4 +1,3 @@
-import React from "react";
 import { IoMdRestaurant } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
 import { FaArrowsRotate } from "react-icons/fa6";

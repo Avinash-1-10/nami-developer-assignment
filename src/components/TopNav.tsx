@@ -1,4 +1,3 @@
-import React from "react";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { FaCircleUser } from "react-icons/fa6";
 

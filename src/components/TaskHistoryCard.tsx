@@ -1,10 +1,7 @@
-import React from "react";
 import { IoMdRestaurant } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
 import { FaStar } from "react-icons/fa";
-import { IoTimeOutline } from "react-icons/io5";
 import { CiCalendar } from "react-icons/ci";
-import { FaRegCircleCheck } from "react-icons/fa6";
 
 const TaskHistoryCard = () => {
   return (

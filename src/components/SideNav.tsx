@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdWindow } from "react-icons/md";
